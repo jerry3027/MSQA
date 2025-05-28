@@ -32,8 +32,6 @@ Each key in the entry is explained below:
 - `true_false_question_answer` contains the answer to `true_false_question` and only has values `YES` or `NO`.
 
 
-Running the extraction file on PDFs:
-
 ## Generation and Evaluation pipelines
 The generation pipeline is specified in `generation_pipeline`. `candidate_answer_generation.py` is used to generate candidate answers with GPT-4o, Gemini-2.0-pro, and Deepseek v3. The candidate answers are then merged with `merge_candidate_answers.py`. Binary questions and answers are generated with `binary_answer_conversion.py`. 
 
